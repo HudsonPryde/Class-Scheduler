@@ -1,0 +1,25 @@
+Computer Science II
+CPS209
+Learn how to write complex programs!
+3Lec 2Lab
+38467 98345 57643
+Computer Graphics
+CPS511
+Learn how to write cool graphics programs
+3Lec
+34562 25347 46532
+Virtual Reality
+CPS643
+Learn how to write extremely cool virtual reality programs
+3Lec 2Lab
+34562 38467 57643 46532
+Computer Networks
+CPS706
+Learn about Computer Networking
+3Lec 1Lab
+34562 46532 98345
+Algorithms
+CPS616
+Learn about Algorithms
+3Lec 1Lab
+57643 25347 38467 98345
