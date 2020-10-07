@@ -1,4 +1,5 @@
-Hudson Stuart 500890173
+## Introduction
+This class scheduler lets you add courses into timeslots. Other functionallity includes, adding students, adding courses
 
 All old and new commands work.
 The scheduler has both a non-automatic version and 
