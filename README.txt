@@ -1,7 +1,27 @@
 ## Introduction
-This class scheduler lets you add courses into timeslots. Other functionallity includes, adding students, adding courses
+This project was great for practicing a number of different skills, including, object-oriented programing, array manipulation, and I/O. This program's purpose is to be a school's database with all the necessities of a real database, those being, the ability to add/remove students and courses to the database, enrolling those students in class and giving them marks, printing a student's transcript, and a scheduler to organize the course's timeslots for the week.
 
-All old and new commands work.
+## User Guide
+This project is split into two parts; the registry and the scheduler. The registry controls which courses have which students, the grades of those students in those courses and their GPA overall. The scheduler handles the timeslots of the courses and ensuring no conflicts between them, as well as printing the schedule.  
+To run the registry or scheduler, simply compile run the Registry.java or Scheduler.java file in your command prompt or preffered shell.
+## Commands
+### Registry
+addNewStudent(String name, String id)
+removeStudent(String studentId)
+printAllStudents()
+addCourse(String studentId, String courseCode)
+dropCourse(String studentId, String courseCode)
+printActiveCourses()
+printClassList(String courseCode)
+sortCourseById(String courseCode)
+printGrades(String courseCode)
+printStudentCourses(String studentId)
+printStudentTranscript(String studentId)
+setFinalGrade(String courseCode, String studentId, double grade)
+### Scheduler
+setDayAndTime(String courseCode, String day, int startTime, int duration)
+setDayAndTime(String courseCode, int duration)
+
 The scheduler has both a non-automatic version and 
 automatic version, use sch courseCode day startTime duration for the non-automatic and
 sch courseCode duration for the automatic version.
